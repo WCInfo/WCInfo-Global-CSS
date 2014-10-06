@@ -6,6 +6,7 @@
   - typography.less
   - login.less
   - header.less
+  - legacy.less
   - footer.less
   - extra.less
   - sdo.less
