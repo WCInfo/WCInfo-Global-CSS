@@ -1,0 +1,235 @@
+/*
+    _   _  ___ _      _   _  _ 
+   | | | |/ __| |    /_\ | \| |
+   | |_| | (__| |__ / _ \| .` |
+    \___/ \___|____/_/ \_\_|\_|
+  
+   UCLan Full Site CSS
+   Revised 2014
+   WCInfo wcinfo@uclan.ac.uk
+   WCInfo-Elaine elrussell@uclan.ac.uk
+   WCInfo-Neil njhorton@uclan.ac.uk
+
+   To be used in conjunction with Bootstrap 3.2
+   
+   UCLan Red #be0f34
+   UCLan Black #252220
+   UCLan Blue #073772
+   UCLan Grey #333
+   UCLan White #fcfcfc
+*/
+/* CSS Colour Variables */
+/* Typography */
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  color: #be0f34 !important;
+  text-decoration: none !important;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+h1 {
+  font-size: 2.6em;
+  line-height: 1.1em;
+}
+h2 {
+  font-size: 2.0em;
+  line-height: 1.1em;
+}
+h3 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+h4 {
+  font-size: 1.0em;
+  line-height: 1.4em;
+}
+h5 {
+  font-size: 1.0em;
+  line-height: 1.05em;
+}
+/* Body */
+p {
+  color: #252220;
+  margin: 10px 0 15px 0;
+}
+p a {
+  font-weight: bold;
+  color: #be0f34 !important;
+}
+p a:hover {
+  color: #252220;
+  text-decoration: none !important;
+}
+a,
+a:visited,
+.btn {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Login Section */
+#top {
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#top .row {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+#acc {
+  margin: 0px;
+  padding: 0px;
+}
+#acc li {
+  display: inline;
+  list-style: none;
+  margin: 0px 10px 0px 0px;
+  padding: 0px;
+  float: left;
+}
+#acc li a {
+  font-size: 11px;
+}
+#login {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+#login li {
+  display: inline;
+  list-style: none;
+  margin: 0px 0px 0px 10px;
+}
+#login li a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* Header Section */
+/* Footer Section */
+/* Extra CSS */
+.inner {
+  padding: 10px;
+}
+/* Special - Solar Dynamics Observatory at UCLan CSS */
+#sdo {
+  background: #000000 url('../img/sdo/sdo-bg.jpg') no-repeat center 200px !important;
+}
+#sdo .red {
+  background: #dfd132 !important;
+}
+#sdo .red a {
+  color: #000 !important;
+}
+#sdo header h1#logo {
+  background: url('../img/uclan-logo-white.png') no-repeat 0px 0px;
+  color: #dfd132 !important;
+}
+#sdo header #search table,
+#sdo header #search tbody,
+#sdo header #search tr,
+#sdo header #search td,
+#sdo header #search table td {
+  border: 0px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+#sdo header #search tbody tr:hover {
+  background: transparent !important;
+}
+#sdo header #search input:focus {
+  background: none !important;
+  background-color: transparent !important;
+}
+#sdo header #search .gsc-search-box,
+#sdo header #search .gsc-search-box:hover {
+  background: none !important;
+}
+#sdo header #search .gsc-search-box .gsc-input,
+#sdo header #search .gsc-search-box:hover .gsc-input {
+  border: 0px !important;
+  background: none !important;
+}
+#sdo header #search .gsc-search-box .gsc-input input.gsc-input,
+#sdo header #search .gsc-search-box:hover .gsc-input input.gsc-input,
+#sdo header #search .gsc-search-box .gsc-input input.gsc-input:hover,
+#sdo header #search .gsc-search-box:hover .gsc-input input.gsc-input:hover,
+#sdo header #search .gsc-search-box .gsc-input input:focus,
+#sdo header #search .gsc-search-box:hover .gsc-input input:focus {
+  border: 0px !important;
+  border-bottom: 1px solid #686110 !important;
+  background: none !important;
+  background-color: transparent !important;
+}
+#sdo header #search .gsc-search-box .gsc-search-button input,
+#sdo header #search .gsc-search-box:hover .gsc-search-button input {
+  color: #000 !important;
+  background-color: #dfd132 !important;
+}
+#sdo header #search .gsc-search-box .gsc-search-button input:hover,
+#sdo header #search .gsc-search-box:hover .gsc-search-button input:hover {
+  background-color: #000 !important;
+  color: #dfd132 !important;
+}
+#sdo header #search .gsc-control-cse {
+  border-color: #000 !important;
+  background-color: #000 !important;
+}
+#sdo #nav ul li a {
+  background: #0c0c0c !important;
+  color: #dfd132 !important;
+}
+#sdo #nav ul li a:hover {
+  background: #1c1c1c !important;
+  color: #fff !important;
+}
+#sdo #breadcrumb p {
+  color: #fff !important;
+}
+#sdo #breadcrumb a {
+  color: #dfd132 !important;
+}
+#sdo #breadcrumb a:hover {
+  color: #fff !important;
+}
+#sdo #SDOmain h1,
+#sdo #SDOmain h2,
+#sdo #SDOmain h3,
+#sdo #SDOmain h4,
+#sdo #SDOmain h5 {
+  color: #dfd132 !important;
+}
+#sdo #SDOmain p,
+#sdo #SDOmain a {
+  color: #fff !important;
+}
+#sdo #SDOmain a:hover {
+  color: #dfd132 !important;
+}

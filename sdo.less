@@ -1,0 +1,95 @@
+#sdo {
+	background: #000 url('../img/sdo/sdo-bg.jpg') no-repeat center 200px !important;
+	.red {
+		background: @SDOYellow !important;
+			a {
+				color: #000 !important;
+				}
+		}
+// Header
+header {
+	// Logo
+	h1#logo {
+		background: url('../img/uclan-logo-white.png') no-repeat 0px 0px;
+		color: @SDOYellow !important;
+		}
+	// Search
+	#search {
+		table, tbody, tr, td, table td {
+			border: 0px !important;
+			padding: 0px !important;
+			margin: 0px !important;
+			}
+		tbody tr:hover {
+			background: transparent !important;
+			}
+		input:focus {
+			background: none !important;
+			background-color: transparent !important;
+			}		
+		// Search Box	
+		.gsc-search-box,
+		.gsc-search-box:hover {
+			background: none !important;
+			
+			.gsc-input {
+				border: 0px !important;
+				background: none !important;
+				
+				input.gsc-input,
+				input.gsc-input:hover,
+				input:focus {
+					border: 0px !important;
+					border-bottom: 1px solid darken(@SDOYellow, 30%) !important;
+					background: none !important;
+					background-color: transparent !important;
+					}
+				}
+			// Search Button
+			.gsc-search-button {
+				input {
+					color: #000 !important;
+					background-color: @SDOYellow !important;
+					&:hover {
+						background-color: #000 !important;
+						color: @SDOYellow !important;
+						}
+					}
+				}			
+			}
+			.gsc-control-cse {
+				border-color: #000 !important;
+				background-color: #000 !important;
+				}
+		}
+	}
+	// Navigation
+	#nav {
+		ul {
+			li {
+				a {
+					background: #0c0c0c !important;
+					color: @SDOYellow !important;
+					&:hover {
+						background: #1c1c1c !important;
+						color: #fff !important;
+						}
+					}
+				}
+			}
+		}		
+		#breadcrumb {
+			p { color: #fff !important; }
+			a {
+				color: @SDOYellow !important;
+					&:hover { color: #fff !important; }
+				}
+			}	
+		#SDOmain {
+			h1, h2, h3, h4, h5 { color: @SDOYellow !important; }
+			p, a {
+				color: #fff !important;
+				}
+				a:hover { color: @SDOYellow !important; }
+			}	
+}
